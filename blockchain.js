@@ -1,3 +1,5 @@
+const Block = require('./block');
+
 class Blockchain {
 
     constructor() {
@@ -19,7 +21,7 @@ class Blockchain {
     }
 
     isChainValid() {
-        for(let i=0; i < this.chain.length; i++) {
+        for(let i = 1; i < this.chain.length; i++) {
             const currentBlock = this.chain[i];
             const previousBlock = this.chain[i-1];
 
@@ -35,3 +37,5 @@ class Blockchain {
         }
     }
 }
+
+module.exports = Blockchain;
