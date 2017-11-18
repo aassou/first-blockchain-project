@@ -1,0 +1,14 @@
+{
+  "name": "first-blockchain-code",
+  "version": "1.0.0",
+  "description": "First blockchain code example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdel",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
